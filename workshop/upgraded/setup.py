@@ -1,0 +1,1 @@
+# This is a direct copy of the legacy setup.py file.

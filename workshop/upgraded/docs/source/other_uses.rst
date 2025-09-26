@@ -1,0 +1,1 @@
+# Direct copy from legacy/docs/source/other_uses.rst

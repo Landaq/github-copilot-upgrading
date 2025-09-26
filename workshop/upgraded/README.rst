@@ -1,0 +1,1 @@
+Upgraded version of the legacy Python project. This is a direct copy of the legacy README.rst.
