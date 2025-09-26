@@ -1,8 +1,6 @@
-from setuptools import setup
-import distribute_setup
-distribute_setup.use_setuptools()
 
-tests_require = ['pytest']
+from setuptools import setup
+
 
 setup(
     name="guachi",
@@ -10,7 +8,7 @@ setup(
     packages=['guachi'],
     include_package_data=True,
     package_data={
-        '': ['distribute_setup.py'],
+        '': [],
     },
 
     # metadata
@@ -99,9 +97,11 @@ http://guachi.googlecode.com/hg/docs/build/html/index.html
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Topic :: Software Development :: Build Tools',
-        'Programming Language :: Python :: 2.5',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 
     license="MIT",

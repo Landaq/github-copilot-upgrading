@@ -1,4 +1,4 @@
-from configparser import ConfigParser
+import configparser
 from os.path import isfile
 
 
@@ -38,7 +38,7 @@ class DictMatch(object):
 
         else:  # this will get executed *only* if we are seeing a file
             try:
-                parser = ConfigParser()
+                parser = configparser.ConfigParser()
                 parser.read(self.config)
                 file_options = parser.defaults()
                 configuration = self.key_matcher(file_options)
